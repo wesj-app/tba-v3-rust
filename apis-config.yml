@@ -1,0 +1,3 @@
+library: reqwest
+packageName: tba-v3-api
+packageVersion: 0.1.0
