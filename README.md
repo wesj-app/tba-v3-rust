@@ -10,7 +10,7 @@ Put the package under your project folder and add the following to `Cargo.toml` 
 
 ```toml
 [dependencies]
-    tba-v3 = "0.1.0"
+tba-v3 = "0.1.0"
 ```
 
 ```rust
@@ -29,27 +29,9 @@ async fn team_works() {
 
 ## Authentication 
 
-All endpoints require an Auth Key to be passed in the header `X-TBA-Auth-Key`. If you do not have an auth key yet, you can obtain one from your [Account Page](/account). 
+All endpoints require an Auth Key to be passed in the header `X-TBA-Auth-Key`. If you do not have an auth key yet, you can obtain one from your [Account Page](https://www.thebluealliance.com/account). 
 
  A `User-Agent` header may need to be set to prevent a 403 Unauthorized error.
-
-## Documentation for API Endpoints
-
-All URIs are relative to *https://www.thebluealliance.com/api/v3*
-
-Class | Method | HTTP request | Description
------------- | ------------- | ------------- | -------------
-
-
-## Documentation For Models
-
-
-
-To get access to the crate's generated documentation, use:
-
-```
-cargo doc --open
-```
 
 ## Author
 Wes Jordan
